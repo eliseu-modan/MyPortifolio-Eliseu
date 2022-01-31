@@ -534,7 +534,7 @@ a{
     top: 300px;
 }
 
-@media(max-width:1200px) {
+/* @media(max-width:1200px) {
     .MENU
     {
         display: none;
@@ -570,7 +570,7 @@ a{
         }
     }
 
-    }
+    } */
     .projectFeedback{
         position: relative;
         top: 2px;
