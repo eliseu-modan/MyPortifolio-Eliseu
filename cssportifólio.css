@@ -534,43 +534,7 @@ a{
     top: 300px;
 }
 
-/* @media(max-width:1200px) {
-    .MENU
-    {
-        display: none;
-    }
-    
-}@media(max-width:1200px){
-    .sobremim{
-        display:none ;
 
-
-    }
-    
-        @media(max-width:1200px){
-            .classificaçãoProjeto{
-      display: none;
-            }
-        }
-    
-
-    @media(max-width: 1200px){
-        .ProjetoPaciente{
-        display: none;
-        }
-    }
-    @media(max-width: 1200px){
-        .vertodos{
-            display: none;
-        }
-        @media(max-width: 1200px){
-            .container{
-                display: none;
-            }
-        }
-    }
-
-    } */
     .projectFeedback{
         position: relative;
         top: 2px;
