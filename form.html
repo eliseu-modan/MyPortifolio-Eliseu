@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cssportifólio.css'>
+    <script src='arquivo.js'></script>
+    <style>
+      body{
+          height: 665px;
+      }
+     .row{
+         position:absolute;
+         left:30%;
+         top: 150px;
+         padding: 130px;
+         padding-right: 450px;
+
+    background-color: #D38312;
+    box-shadow: 100px 100px 100px #ebe8ea;
+
+         
+     }
+     #nome{
+         position: absolute;
+         top: 50px;
+         font-size:  x-large;
+         color: rgb(14, 8, 8);
+         left: 10px;  
+         font-family: 'Courier Prime';       
+     }
+     #inputNome{
+         position: relative;
+     width: 600px;  
+        left: 50px;
+     }
+     #inputNomeText{
+         position: absolute;
+         left: 250px;
+         top: 0px;
+         height: 30px;
+         width: 250px;
+     }  
+     #email{
+        position: absolute;
+         top: 110px;
+         font-size:  x-large;
+         color: rgb(12, 6, 6);
+         left: 60px;  
+         font-family: 'Courier Prime';    
+     }
+      #inputEmail{
+        position: absolute;
+         left: 250px;
+         top: 0px;
+         height: 30px;
+         width: 200px;
+     }
+     #mensagem{
+        position: absolute;
+         top: 190px;
+         font-size:  x-large;
+         color: rgb(12, 8, 8);
+         left: 60px;  
+         font-family: 'Courier Prime';   
+     }
+     #buton{
+position: absolute;
+top: 255px;
+left: 90px;
+padding-left: 100px;
+padding-right: 100px;
+font-family: 'Courier Prime';
+font-size:x-large ;
+background-color:#A83279;
+
+     }
+     #textAreaMensagem{
+      position: absolute;
+      top: -12px;
+      left: 150px;
+      width: 300px;
+      height: 60px;
+     }
+     
+
+      
+ 
+    </style>
+</head>
+<body>
+    <div class="row">
+     <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="6e2e3d9a-4645-486d-80c7-3497013623d3">
+
+
+     <div id="nome">
+     <label for="inputNome " id="inputNome">Primeiro Nome</label>
+     <input type="text" id="inputNomeText" name="name" required maxlength="25" minlength="2">
+     <span></span>
+     </div>
+     <br>
+
+      <div id="email">
+     <label for="inputEmail">Endereço de Email</label>
+     <input type="email" id="inputEmail" name="email" required maxlength="50">
+    <span></span>
+    </div>
+    <br>
+     
+ 
+    <div id="mensagem">
+    <label for="textAreaMensagem"> Mensagem</label>
+     <textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
+     <span></span>
+     </div>
+     <br>
+     <input type="hidden" name="redirectTo" value="index.html">
+
+     <button id="buton">Enviar Mnesagem</button>
+
+     </form>
+</div>
+</body>
+</html> 

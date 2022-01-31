@@ -1,0 +1,896 @@
+/*menu do cabeçalho*/
+
+
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   font-family: 'Courier Prime', monospace;
+}
+body{
+    background: #D38312;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 2000px;
+    margin:0px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+}
+.cabeçalho{
+    position: relative;
+    right: 4px;
+     
+    flex-direction: column;
+
+ 
+    height: 77.99px;
+    box-sizing: content-box;
+}
+.MENU{
+   position: absolute;
+   left: 45%;
+   height: 90%;
+    display:inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+   }
+.MENU .inicio { 
+    padding-right: 350px;
+}
+.MENU li {
+    display: inline-block;
+
+}
+ a{
+text-decoration:none;
+    color: rgb(14, 7, 7);
+     font-size:30px;
+padding: 10px;
+}
+.destaque a{
+    color: rgb(5, 3, 7);
+}
+#imagemj{
+display: inline-block;
+position: relative; 
+text-decoration: none;
+left:100px;
+top: 60px;
+box-shadow: 100px 100px 100px #A83279;
+border-radius: 14px;
+}
+     
+
+.sobremim{  
+    float:left;
+     padding: 260px 100px 50px 500px;
+     background-color:white;
+  position:absolute;
+  left: 49%;
+  top: 14%;
+  border: solid 2px rgb(9, 5, 12);
+  border-radius: 14px;
+  box-shadow: 50px 50px 50px #A83279; 
+  margin: 2px;
+  
+}
+.descrição{
+    position:absolute;
+    left: 30px;
+    top: 70px;
+  line-height: 30px;
+  text-align: left;
+  color: black;
+}
+.apresentacao{
+    position: relative;
+     right: 4px;
+  background-color: white;
+    border: solid 2px rgb(0, 0, 0);
+    height: 525px;
+
+}
+.sobre{
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    color: #A83279;
+}
+.facebook{
+    position:absolute;
+    left: 1270px;
+    top: 470px;
+}
+
+.linkedin{
+    position: absolute;
+    left: 1220px;
+    top: 475px;
+}
+
+.Project{
+    position:absolute;
+    left: 45%;
+    top: 3%;
+    color: rgb(240, 232, 234);
+    }
+
+
+
+.Projects{
+    position:absolute;
+    top: 92%;
+    height: 600px;
+    padding: 250px 338px 220px 978px ;
+    background-color: #D38312;
+    border: solid 2px ;
+  
+
+    
+}
+   .port{
+       position: absolute;
+       left: 80px;
+       top: 15%;
+      
+}
+   #nome1{
+       position:absolute;
+
+       left:21%;
+    
+       top:1%;
+       
+       color: rgb(137, 37, 62);
+   }
+   
+   .descricao1{
+       position: absolute;
+       top: 108%;
+
+       opacity: 90%;
+       padding-bottom: 60px;
+       background-color: #D38312;
+       padding-top: 20px; 
+       color: rgb(0, 0, 0);
+   
+       }
+   .verprojeto1{
+       position: absolute;
+       left: 5%;
+       top: 220%;
+     
+    
+       background: rgb(145, 7, 83);
+       
+       padding-left: 40px;
+       padding-right: 40px;
+
+       border: solid 2px rgb(0, 0, 0);
+       
+   }
+   .logoportifolio{
+       opacity: 80%;
+       border: solid 2px  black;
+       box-shadow: 50px 50px 50px  rgb(137, 37, 62); 
+
+        }
+   .logoclassificaçao{
+    position: absolute;
+    left: 43%;
+    top: 92px;
+    border: solid 2px rgb(0, 0, 0);
+    box-shadow: 50px 50px 50px  rgb(137, 37, 62); 
+
+    /* padding: 4px 4px 4px 4px; */
+}
+#nome2{
+position: absolute;
+left: 20%;
+top: 3%;
+color: rgb(137, 37, 62);
+
+
+}
+
+.descricao2{    
+    position: absolute;
+       top: 285px;
+    left: 39%;
+       opacity: 90%;
+       padding-top:20px ;
+  
+       background-color: #D38312;
+ 
+       color: rgb(0, 0, 0);
+       text-align: left;
+}
+.verprojeto2{
+    position: absolute;
+    left: 41%;
+    top: 490px;
+    color: white;
+    background: rgb(145, 7, 83);
+    padding-left: 50px;
+       padding-right: 50px;
+       border: solid 2px rgb(0, 0, 0);
+
+    
+}
+
+.telapaciente{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    border: solid 1px rgb(10, 6, 6);
+    box-shadow: 50px 50px 50px  rgb(137, 37, 62); 
+
+}
+#nome3{
+position: absolute;
+left: 20%;
+top: -8%;
+color: rgb(137, 37, 62);
+}
+.descricao3{
+    position: absolute;
+    left: 72%;
+    top: 48%;
+    opacity: 90%;
+       padding-top:20px ;
+  
+       background-color: #D38312;
+ 
+       color: rgb(0, 0, 0);
+}
+.verprojeto3{
+    position: absolute;
+    left: 73%;
+    top: 492px;
+    color: white;
+    background: rgb(145, 7, 83);
+    padding-left: 50px;
+       padding-right: 50px;
+       border: solid 2px rgb(12, 9, 9);
+
+}
+.vertodos{
+    position: absolute;
+    top: 92%;
+    left: 37%;
+    color: rgb(255, 255, 255);
+    background: rgb(145, 7, 83);
+
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 2px rgb(20, 14, 14);
+}
+.pr{
+    color: white;
+}
+.imgportifolio{
+    opacity: 80px;
+    position:absolute;
+  top: 45px;
+    left: 4%;
+    width: 600px;
+    height: 350px;
+    padding: 6px;
+    background-color: rgb(14, 7, 19);
+    border-radius: 15px;
+
+   
+}
+.Portifolio3{
+    position: absolute;
+    top: 2px;
+    left: 53px;
+   
+    padding: 480px 193px 100px 1025px;
+    background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
+    border-radius: 15px;
+    border: solid 6px #0e0611;
+
+}
+
+.MENU a:hover,
+.MENU a.selected
+
+ {
+    background-color: rgb(255, 255, 255);
+    color: rgb(147, 16 , 223);
+}
+.dropdowProjetos a:hover,
+.dropdowProjetos a.selected
+{
+background-color: rgb(247, 245, 248);
+color: rgb(147, 16, 223);
+}
+
+.container{
+    width: 1200px;
+    text-align:right;
+
+    position:absolute;
+    top: 1300px;
+    left: 50px;
+}
+.box-container{
+    height:500px;
+    width: 100%;
+    background: rgb(238, 230, 243); 
+     box-shadow: 0 5px 15px #111; 
+     left: 20px;
+     border-radius: 5px;
+     padding: 15px;
+     display: none;
+}
+.box-container .box{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background:  rgb(218, 124, 17);
+    overflow: auto;
+    text-align: left;
+
+}
+#input {
+    width:100%;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(7, 4, 8);
+    background-color:#D38312 ;
+}
+
+#input:focus{
+    border-bottom: 2px solid rgb(15, 8, 8);
+
+}
+ #fechar {
+    height: 30px;
+    width: 160px;
+    background: rgb(11, 5, 14);
+    color:white ;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #111;
+    border-radius: 5px ;
+
+}
+#comment{
+    height: 30px;
+    width: 160px;
+    background: rgb(15, 10, 19);
+    color:rgb(245, 235, 235) ;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #111;
+    border-radius: 5px ;
+}
+#cancel{
+    height: 30px;
+    width: 160px;
+    background: rgb(10, 7, 12);
+    color:white ;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #111;
+    border-radius: 5px ;
+}
+
+button:hover{
+    opacity: .8;
+}
+#delete{
+    height: 30px;
+    width: 160px;
+    background: rgb(3, 1, 2) ;
+    color:rgb(250, 243, 243) ;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    box-shadow: 0 3px 10px #111;
+    border-radius: 5px ;
+}
+#cnome{
+    width:100%;
+    height: 40px;
+    background: none;
+    font-size: 15px;
+    color: rgb(12, 3, 5);
+    border-bottom: 1px solid rgb(19, 11, 11);
+    text-decoration-color: rgb(137, 37, 62);
+}
+::placeholder{
+
+color: black;
+}
+#input.value{
+
+    background-color: rgb(19, 11, 5);
+}
+.dropdowProjetos{
+    position: absolute;
+    left:57%;
+    top: 15px;
+      /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279,#A83279);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #A83279); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    margin: 0px;
+    /* padding: 6px; */
+    z-index:1;
+    font-size: 0px;
+    
+    
+    
+
+  
+
+
+}
+.projetosd  li a {
+   font-family: 'Courier Prime',monospace;
+   color:white;
+   font-size: 25px;
+   padding: 20px;
+   display:inline ;
+   margin-left: -100px;
+  
+
+
+}
+
+.dropdowProjetos a{
+    color: white;
+    font-family: 'Courier Prime',monospace;
+
+
+}
+.dropdowProjetos li{
+    padding: 10px;
+   
+}
+ .projetosd li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 10px;
+
+}
+.projetosd ul{
+    font-size: 0;
+}
+ul li {
+    list-style-type: none;
+
+
+}
+ .projetosd  a a:hover{
+     opacity: 99%;
+    /* background-color: rgb(1, 0, 2); */
+}
+.projetosd {
+    display: none;
+    cursor: pointer;
+
+}
+
+.seta{
+    position: absolute;
+    top: 15px;
+    
+}
+
+body{
+background-color:rgb(243, 243, 243);
+opacity: 90%;
+}
+.MENU{
+    position: absolute;
+    top: 5%;
+   
+    
+}
+ 
+a{
+    color: white;
+}
+
+.descriçãoporti{
+    position: absolute;
+    top: 1090px;
+    text-align: left;
+    left: 90px;
+    font-family: 'Courier Prime';
+    color: rgb(10, 6, 14);
+    font-size: larger;
+    padding: 6px;
+    border: solid 2px rgb(11, 4, 15);
+    border-radius: 4px;
+}
+
+.descrição2{
+    position: absolute;
+    top: 900px;
+    left: 432px;
+    color: rgb(6, 3, 8);
+}
+
+.detalhesprojetos{
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 10px;
+    top: 670px;
+}
+.descricao3{
+    position: absolute;
+    top: 300px;
+}
+
+@media(max-width:1200px) {
+    .MENU
+    {
+        display: none;
+    }
+    
+}@media(max-width:1200px){
+    .sobremim{
+        display:none ;
+
+
+    }
+    
+        @media(max-width:1200px){
+            .classificaçãoProjeto{
+      display: none;
+            }
+        }
+    
+
+    @media(max-width: 1200px){
+        .ProjetoPaciente{
+        display: none;
+        }
+    }
+    @media(max-width: 1200px){
+        .vertodos{
+            display: none;
+        }
+        @media(max-width: 1200px){
+            .container{
+                display: none;
+            }
+        }
+    }
+
+    }
+    .projectFeedback{
+        position: relative;
+        top: 2px;
+    background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
+        padding-bottom: 400px;
+        padding-top: 150px;
+        border-radius:  15px ;
+        border: solid 6px rgb(4, 5, 7);
+        font-family: 'Courier prime';
+    }
+    .projectFeedback{
+    
+    margin: 60px;
+    margin-top: 15px;
+    
+    }
+    
+    .descriçãofe1{  
+        position: absolute;
+                top: 170px;
+                text-align: left;
+                left: 45%;
+                font-size:larger ;
+                color: rgb(9, 9, 12);
+                padding: 12px;  
+                border: solid 2px rgb(9, 11, 14);
+                font-family: 'Courier Prime' ;
+          border-radius: 12px;
+          
+
+    }
+    
+
+    .java{
+        position: absolute;
+        left:700px;
+        top: 451px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgb(145, 7, 83);
+        color:rgb(253, 243, 243);
+        
+        border: solid 2px rgb(11, 14, 17);
+    }
+     .swing{
+        position: absolute;
+        left: 545px;
+        top: 451px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:rgb(145, 7, 83);
+        color:rgb(241, 237, 237);
+        opacity: 90%;
+        border: solid 2px rgb(2, 7, 12);
+     }
+  
+
+      
+      .projetofeedback{
+          position: absolute;
+          text-align: center;
+          left: 730px;
+          top: 80px;
+          color: rgb(241, 236, 241);
+          font-family: 'Courier Prime';
+          border: solid 2px rgb(3, 5, 7);
+          background-color: rgb(145, 7, 83);
+         padding: 8px;
+      }
+     
+      #ferramentas1{
+          position: absolute;
+          top: 45px;
+      }
+      #html{
+          text-align: center;
+          padding: 10px;
+          padding-right: 10px;
+          background-color: rgb(145, 7, 83);
+          border: solid 2px rgb(12, 1, 11);
+          color: rgb(241, 237, 236);
+          font-family: 'Courier Prime' ;
+
+      }
+      #css{
+          position: relative;
+          top: 15px;
+        text-align: center;
+          padding: 10px;
+          padding-right: 10px;
+          background-color: rgb(145, 7, 83);
+          border: solid 2px rgb(12, 1, 11);
+          color: rgb(241, 237, 236);
+          font-family: 'Courier Prime' ;
+
+      }
+      #ProjetoPaciente , #jquery{
+        position: relative;
+          top: 30px;
+        text-align: center;
+          padding: 10px;
+          padding-right: 10px;
+          background-color: rgb(145, 7, 83);
+          border: solid 2px rgb(12, 1, 11);
+          color: rgb(241, 237, 236);
+          font-family: 'Courier Prime' ;
+      }
+      #jquery{
+          top: 45px;
+      }
+      #ferramentas{
+        position: absolute;
+        left: 980px;
+        top: 800px;
+      }
+      .projetofeedback{
+          font-family: 'Courier Prime';
+      }
+      .pmp{
+        position: absolute;
+          text-align: center;
+          left: 920px;
+          top: 720px;
+          color: rgb(245, 245, 231);
+          font-family: 'Courier Prime';
+          border: solid 2px rgb(15, 15, 2);
+          background-color: rgb(145, 7, 83);
+          padding: 6px;
+      }
+    #tela{
+position: absolute;
+left: 20px;
+top: 20px;
+opacity: 90%;
+border: solid 2px rgb(49, 14, 204);
+width: 380px;
+height: 520px   ;
+
+    }
+
+   
+    #comentar{
+        position:absolute;
+        left: 45%;
+        top: 1240px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Courier Prime';
+    }
+
+.ProjetoCadastroPaciente{
+
+    position: absolute;
+    top: 1280px;
+    left: 60px;
+    padding-right: 1222px;
+background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
+    padding-bottom: 470px;
+    padding-top: 150px;
+    border-radius:  15px ;
+    border: solid 6px rgb(4, 5, 7);
+    font-family: 'Courier prime';
+
+
+}
+#descricaoportifolio{
+    position: relative;
+    top: 24px;
+    color: rgb(0, 0, 0);
+    
+    
+  padding: 7px;
+   border: solid 2px rgb(137, 37, 62);
+}
+#desfeedback{
+    position: relative;
+    color: rgb(14, 12, 10);
+    top: 30px;
+    padding: 7px;
+    border: solid 2px rgb(137, 37, 62);
+    left: -40px;
+}
+#descadastro{
+    position: relative;
+    top: 15px;
+    right: 10px;
+    padding: 7px;
+    border: solid 2px rgb(137, 37, 62);
+    color: black;
+}
+#imgtela{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 400px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+#imgtela2{
+    position: absolute;
+    top: 30px;
+    left:450px;
+    width: 400px;
+    height: 475px;
+    border-radius: 20px;
+    border: solid 2px black;
+}
+
+
+#java1 {
+    position: absolute;
+    top: 260px;
+    left: 1015px;
+  text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: rgb(145, 7, 83);
+    border: solid 2px rgb(12, 1, 11);
+    color: rgb(241, 237, 236);
+    font-family: 'Courier Prime' ; 
+    font-size: 20px;
+}
+#javaswing1{
+    position: absolute;
+          top: 190px;
+          left: 1000px;
+        text-align: center;
+          padding: 10px;
+          padding-right: 10px;
+          background-color: rgb(145, 7, 83);
+          border: solid 2px rgb(12, 1, 11);
+          color: rgb(241, 237, 236);
+          font-family: 'Courier Prime' ;
+          font-size:20px ;
+}
+#pcadastro{
+    position: absolute;
+    top: 120px;
+    left: 940px;
+  text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: rgb(145, 7, 83);
+    border: solid 2px rgb(12, 1, 11);
+    color: rgb(241, 237, 236);
+    font-family: 'Courier Prime' ;
+    font-size:20px ;
+}
+.descricaocadastropaciente{
+    position: absolute;
+    top: 530px;
+    left: 10px;
+    width: 92%;
+    padding: 7px;
+    border: solid 2px rgb(6, 5, 10);
+    font-family: 'Courier Prime';
+}
+.git{
+    position:absolute;
+    top:475px;
+    left: 1160px;
+    z-index: 1;
+}
+.git2{
+    position: absolute;
+    top: 480px;
+    left: 1100px;
+}
+.cgit{
+    position: absolute;
+    top: 450px;
+    left: 840px;
+    width:250px;
+  text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: rgb(145, 7, 83);
+    border: solid 2px rgb(12, 1, 11);
+    color: rgb(241, 237, 236);
+    font-family: 'Courier Prime' ;
+    font-size:20px ;
+}
+.cgit1{
+    position: absolute;
+    top: 1200px;
+    left: 880px;
+    width:250px;
+  text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: rgb(145, 7, 83);
+    border: solid 2px rgb(12, 1, 11);
+    color: rgb(241, 237, 236);
+    font-family: 'Courier Prime' ;
+    font-size:20px ;
+}
+.git3{
+    position: absolute;
+    top: 1190px;
+    left: 1130px;
+}
+.cgit3{
+    position: absolute;
+    top: 470px;
+    left: 880px;
+    width:250px;
+  text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: rgb(145, 7, 83);
+    border: solid 2px rgb(12, 1, 11);
+    color: rgb(241, 237, 236);
+    font-family: 'Courier Prime' ;
+    font-size:20px ;
+}
+.git4{
+    position: absolute;
+    top: 460px;
+    left: 1130px;
+}
