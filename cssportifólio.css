@@ -15,6 +15,7 @@ background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, 
     margin:0px;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
+    width: 1350px;
 }
 
 .cabeçalho{
