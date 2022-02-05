@@ -881,4 +881,6 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
     .mediacontato{display: none;}
     /* .mediacontato{flex-wrap: wrap;} */
 }
-    
+    @media(max-width:700px){
+        .apresentacao{width: 250px;}
+    }
