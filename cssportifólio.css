@@ -876,7 +876,8 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
     
     .dropdowProjetos{left:150px;}
 } 
-@media (max-width:700px){
+@media (max-width:700px) and (min-width:2px){
     .mediacontato{display: none;}
+    /* .mediacontato{flex-wrap: wrap;} */
 }
     
