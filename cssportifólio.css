@@ -15,18 +15,25 @@ background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, 
     margin:0px;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
-
 }
+
 .cabeçalho{
     position: relative;
     right: 4px;
-     
-    flex-direction: column;
-
- 
     height: 77.99px;
-    box-sizing: content-box;
+
+     
+      
+ 
 }
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .MENU{
    position: absolute;
    left: 45%;
@@ -34,9 +41,11 @@ background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, 
     display:inline-block;
     vertical-align: top;
     padding-top: 20px;
+    display: flex;
    }
 .MENU .inicio { 
     padding-right: 350px;
+   
 }
 .MENU li {
     display: inline-block;
@@ -50,6 +59,8 @@ padding: 10px;
 }
 .destaque a{
     color: rgb(5, 3, 7);
+    
+
 }
 #imagemj{
 display: inline-block;
@@ -858,3 +869,14 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
     top: 460px;
     left: 1130px;
 }
+
+
+@media (max-width:1200px) {
+    .MENU{left:2px;}
+    
+    .dropdowProjetos{left:150px;}
+} 
+@media (min-width:800px){
+    .destaque{display:none;}
+}
+    
