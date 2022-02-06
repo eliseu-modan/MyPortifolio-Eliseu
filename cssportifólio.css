@@ -89,15 +89,15 @@ border-radius: 14px;
 }
 .descrição{
     position:absolute;
-    left: 30px;
-    top: 70px;
+    left: 2%;
+    top: 20%;
   line-height: 30px;
   text-align: left;
   color: black;
 }
 .apresentacao{
     position: relative;
-     right: 4px;
+     right: 0%;
   background-color: white;
     border: solid 2px rgb(0, 0, 0);
     height: 525px;
@@ -879,6 +879,20 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
 } 
 @media (max-width:700px) and (min-width:2px){
     .mediacontato{display: none;}
-    /* .mediacontato{flex-wrap: wrap;} */
+    /* .mediacontato{flex-wrap: wrap;}
+*/
 }
-   
+@media (max-width:700px) and (min-width:2px){
+    .sobremim{display: none;}
+    .Projects{display:none;}
+    .container{display: none;}
+    #comentar{display: none;}
+}
+@media (max-width:700px) and (min-width:2px){
+    .facebook{left: 20px;}
+    .git{left: 80px;}
+    .linkedin{left:130px;}
+
+
+}
+    

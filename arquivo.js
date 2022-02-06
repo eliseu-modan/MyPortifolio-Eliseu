@@ -45,7 +45,7 @@ $('.box-container').slideUp();
 //dropdow cabeçalho Projetos
 $('.dropdowProjetos').mouseleave(function(e){
 e.preventDefault();
-$('.projetosd').css( 'cursor','pointer');
+// $('.projetosd').css( 'cursor','pointer');
 $('.projetosd').css( 'display','block');
 
 
@@ -57,5 +57,4 @@ $('.projetosd').css('display','none');
 
 
 });
-
 
