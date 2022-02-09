@@ -895,4 +895,10 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
 
 
 }
-    
+     @media (min-height:1700px) {
+        .Projects{top:34%}
+        .Projects{left:6px ;}
+        .container{
+            top:75%;
+        }
+    } 
