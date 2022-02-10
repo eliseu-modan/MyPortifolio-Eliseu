@@ -883,10 +883,16 @@ background: linear-gradient(to right, rgb(58, 97, 134), rgb(137, 37, 62));
 */
 }
 @media (max-width:700px) and (min-width:2px){
-    .sobremim{display: none;}
-    .Projects{display:none;}
+    .sobremim{left: 4px;top:550px;padding: 200px;padding-right: 260px;}
+    
+    .descrição{width: 450px;}
+    .Projects{top: 1150px;}
+    .classificaçãoProjeto{display: none;}
+    .ProjetoPaciente{display: none;}
+    .vertodos{display: none;}
     .container{display: none;}
     #comentar{display: none;}
+    .dropdowProjetos{left: 190px;}
 }
 @media (max-width:700px) and (min-width:2px){
     .facebook{left: 20px;}
